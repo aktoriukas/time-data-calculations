@@ -1,3 +1,4 @@
+
 const convertToMinutes = (string) => {
     let newString = string.replace(':', '');
     let hours, minutes, totalMinutes;
@@ -59,10 +60,11 @@ const getTotalObj = (starting, finishing) => {
 
     return totalObj
 }
-modules.export = {
-    getTotalObj: getTotalObj,
-    getMondayDate: getMondayDate,
-    convertToMinutes: convertToMinutes,
-    convertToString: convertToString,
-    calculateTotal: calculateTotal
+
+module.exports = {
+    getMondayDate,
+    getTotalObj,
+    convertToString,
+    calculateTotal,
+    convertToMinutes
 }
