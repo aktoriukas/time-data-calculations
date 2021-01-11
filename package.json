@@ -1,0 +1,16 @@
+{
+  "name": "time-calculations",
+  "version": "0.0.1",
+  "description": "functions related to time, data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "time",
+    "data",
+    "calculations"
+  ],
+  "author": "aktoriukas",
+  "license": "ISC"
+}
